@@ -49,6 +49,14 @@ A Circular List is a linked list where the last node points back to the first no
      make clean
      ```
 
+## Implementation and Usage Across Different Operating Systems
+
+The implementation and usage of this code may vary slightly depending on your operating system.
+
+- **Windows Users:** No modifications are typically needed. Follow the provided instructions to compile and run the code.
+
+- **Mac or Linux Users:** In the Makefile, you may need to modify the `clean` target to ensure proper deletion of object files and executables. Replace `rm -f *.o cList` with `rm -f *.o cList cList.exe`. Additionally, ensure you have the necessary dependencies installed to compile the code, such as `make` and `g++`. Follow the provided instructions to clone the repository, compile the code, and run the executable.
+
 ## Contributing
 
 Contributions are welcome! If you have any suggestions, improvements, or bug fixes, feel free to open an issue or submit a pull request.
