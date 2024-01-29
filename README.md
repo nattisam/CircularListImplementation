@@ -19,11 +19,11 @@ A Circular List is a linked list where the last node points back to the first no
    - Open your terminal or command prompt.
    - Clone the repository to your local machine:
      ```
-     git clone https://github.com/your-username/circular-list.git
+     git clone https://github.com/nattisam/CircularListImplementation.git
      ```
    - Navigate to the cloned directory:
      ```
-     cd circular-list
+     cd CircularListImplementation
      ```
 
 2. **Build the Project:**
