@@ -15,11 +15,39 @@ A Circular List is a linked list where the last node points back to the first no
 
 ## Usage
 
-To use the Circular List implementation, follow these steps:
+1. **Clone the Repository:**
+   - Open your terminal or command prompt.
+   - Clone the repository to your local machine:
+     ```
+     git clone https://github.com/your-username/circular-list.git
+     ```
+   - Navigate to the cloned directory:
+     ```
+     cd circular-list
+     ```
 
-1. Clone the repository to your local machine.
-2. Compile the source files using a C++ compiler.
-3. Run the compiled executable to see the demonstration of Circular List operations.
+2. **Build the Project:**
+   - Ensure Make is installed on your system.
+   - Run the Makefile to build the project:
+     ```
+     make
+     ```
+
+3. **Run the Program:**
+   - Execute the compiled program:
+     ```
+     ./cList > cListOutput.txt
+     ```
+   - This command generates the output in a text file named `cListOutput.txt`.
+
+4. **View the Output:**
+   - Open `cListOutput.txt` to view the program output.
+
+5. **Clean Up:**
+   - To remove compiled files, run:
+     ```
+     make clean
+     ```
 
 ## Contributing
 
